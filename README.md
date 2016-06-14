@@ -17,3 +17,8 @@ DOMincer acts as a wrappers for HTML DOM nodes, adding additional functionality.
 - .remove()
 - .on()
 - .off()
+
+To gain access to the DOMincer methods, simply call the primary function on a DOM element or HTML tag string (e.g., 'div'):
+```javascript
+var collectionOfDivElements = $l('div');
+```
