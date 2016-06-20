@@ -51,6 +51,11 @@ Given an HTML document:
 collectionOfDivElements.addClass("an-added-class");
 ```
 
+**To remove a class from any selected divs that possess said class:**
+```javascript
+collectionOfDivElements.removeClass("div1");
+```
+
 **To remove the innerHTML from the selected divs:**
 ```javascript
 collectionOfDivElements.empty();
@@ -60,5 +65,13 @@ collectionOfDivElements.empty();
 ```javascript
 var collectionOfParentNodes = collectionOfDivElements.parent();
 ```
+
+**To select the direct child nodes of each member in a collection:**
+
+```.children()``` returns a DOMNodeCollection of all direct children of all nodes in a collection.
+
+**To select specific descendent nodes:**
+
+```.find(selector)``` returns a DOMNodeCollection of all elements matching the selector passed in as an argument that are descendents of members in a collection.
 
 
