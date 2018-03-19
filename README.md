@@ -1,4 +1,5 @@
-#DOMincer#
+# DOMincer
+
 DOMincer.js is a lightweight JavaScript library inspired by jQuery.
 
 DOMincer simplifies document traversal, manipulation, and event handling, will providing users with an easy to use syntax for making AJAX requests.
@@ -18,7 +19,7 @@ DOMincer acts as a wrapper for HTML DOM nodes, adding additional functionality. 
 - .on()
 - .off()
 
-##Usage Examples##
+## Usage Examples:
 **To gain access to the DOMincer methods, simply call the primary function ``` $l() ``` on a DOM element or HTML tag string (e.g., 'div'):**
 ```javascript
 var collectionOfDivElements = $l('div');
